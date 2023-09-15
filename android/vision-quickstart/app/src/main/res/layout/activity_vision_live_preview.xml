@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:keepScreenOn="true">
 
+
   <com.google.mlkit.vision.demo.CameraSourcePreview
       android:id="@+id/preview_view"
       android:layout_width="match_parent"
@@ -56,5 +57,6 @@
         android:layout_gravity="center"/>
 
   </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
